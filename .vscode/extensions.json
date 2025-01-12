@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "bierner.github-markdown-preview",
+    "darkriszty.markdown-table-prettify",
+    "DavidAnson.vscode-markdownlint",
+    "EditorConfig.EditorConfig",
+    "mhutchie.git-graph",
+    "redhat.vscode-yaml",
+    "yahyabatulu.vscode-markdown-alert"
+  ]
+}

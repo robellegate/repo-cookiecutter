@@ -1,0 +1,20 @@
+{
+  "[markdown]": {
+    "editor.rulers": [
+      {
+        "color": "#80808033",
+        "column": 80
+      },
+      {
+        "color": "#80808099",
+        "column": 120
+      }
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "always"
+    }
+  },
+  "files.associations": {
+    "LICENSE": "plaintext"
+  }
+}

@@ -1,0 +1,4 @@
+# Config file syntax: https://github.com/lycheeverse/lychee/blob/master/lychee.example.toml
+
+# Exclude URLs and mail addresses from checking (supports regex).
+exclude = ['^https://github.com/.*/actions/workflows/.*$']

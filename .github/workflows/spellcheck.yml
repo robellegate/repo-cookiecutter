@@ -1,0 +1,18 @@
+name: "Check Spelling"
+on:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: streetsidesoftware/cspell-action@v5
+        with:
+          check_dot_files: false
+          incremental_files_only: true
+          inline: warning
+          strict: false

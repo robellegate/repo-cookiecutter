@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json
+
+# Config file syntax: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+# Explanation of rules: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Default state for all rules
+default: true
+
+# MD013/line-length - Line length
+MD013:
+  # Number of characters
+  line_length: 120
+  # Include code blocks
+  code_blocks: false
+  # Include tables
+  tables: false
